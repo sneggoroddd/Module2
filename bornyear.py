@@ -6,7 +6,9 @@
 """
 day_Pushkin = '06.06.1799'
 age_Pushkin = input('когда родился Пушкин?(дд.мм.гггг): ')
-print("Вы написали: ", age_Pushkin)
+print("Проверка: ", age_Pushkin)
 if age_Pushkin == day_Pushkin:
      print("Правильно!")
-print("Не правильно")
+else:
+     print("Не правильно")
+print('end')
